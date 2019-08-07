@@ -232,6 +232,20 @@ div.section {
     margin: 0 40px 10px;
 }
 
+.bwmg, .bwmg td {
+    background-color: #252b31!important;
+    font-size: 13px !important;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-top: 0px solid #5d5e5e;
+    border-left: 0px solid #5d5e5e;
+    border-right: 0px solid #5d5e5e;
+    border-bottom: 1px solid #5d5e5e;
+}
+
 table.tomato-grid {
     border-spacing: 0;
     border: none;
