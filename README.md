@@ -7,7 +7,6 @@ Modified to a condensed dark/light theme for use with Fresh Tomato.
 Dark Theme
 ![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot_dark.png)
 Light Theme
-![Screenshot](https://raw.githubusercontent.com/theredhood13/tomato-css-dark/master/Screenshot_light.png)
 
 ## Installation
 
