@@ -1,7 +1,7 @@
 A renovation of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
 Modified to a condensed dark/light theme for use with Fresh Tomato.
 
-# Now with Custom Icons!
+## Now with Custom Icons
 
 ## Screenshots
 Dark Theme
@@ -23,7 +23,7 @@ Light Theme
 1. Navigate to __Administration__ > __Admin Access__
 2. Change color scheme to __custom.css__
 3. Save changes and reboot router
-4. You may need to erase your brower's cache before the new UI appears.
+4. You must erase your browser's cache before the new UI appears.
 
 _Tested and working on a Netgear R8000 router running FreshTomato 2019.2_
 
