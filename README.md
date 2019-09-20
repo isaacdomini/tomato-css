@@ -11,7 +11,7 @@ Light Theme
 
 ## Installation
 
-### Using init script
+### Using init script (recommended)
 
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
@@ -24,6 +24,8 @@ Light Theme
 2. Change color scheme to __custom.css__
 3. Save changes and reboot router
 4. You may need to erase your brower's cache before the new UI appears.
+
+_Tested and working on a Netgear R8000 router running FreshTomato 2019.2_
 
 ### Using SSH
 
@@ -39,4 +41,4 @@ Light Theme
 3. Save changes and reboot router
 4. You may need to erase your brower's cache before the new UI appears.
 
-_After every reboot, this needs to be performed again. Router will automatically remove custom.css file after reboot_
+_If using SSH method, you must repeat the steps on reboot. Router will automatically remove custom.css file after reboot._
