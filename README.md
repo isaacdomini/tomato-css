@@ -17,7 +17,7 @@ Light Theme
 1. Navigate to __Administration__ > __Scripts__
 1. Choose __WAN Up__
 1. Paste the contents of [tomato_wanup_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_dark) or [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
-1. In case your router doesn't use WAN (access point, etc.) try the firewall script instead [tomato_firewall_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_dark)/[tomato_firewall_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_light) _solution from u/brantot_
+1. In case your router doesn't use WAN (access point, etc.) try the firewall script instead [tomato_firewall_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_dark)/[tomato_firewall_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_light) (paste in __Firewall__ not WAN Up) _solution from u/brantot_
 1. Save changes
 
 #### 2. Enable Custom CSS
