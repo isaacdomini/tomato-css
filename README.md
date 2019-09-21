@@ -1,7 +1,7 @@
 A renovation of [mReXiTuS's custom css](https://github.com/mReXiTuS/tomato-design). 
-Modified to a condensed dark/light theme for use with Fresh Tomato.
+Modified to be more condensed and compatible with Fresh Tomato.
 
-## Now with Custom Icons
+## Now with Icons
 
 ## Screenshots
 Dark Theme
@@ -15,15 +15,16 @@ Light Theme
 
 #### 1. Upload script
 1. Navigate to __Administration__ > __Scripts__
-2. Choose __WAN Up__
-3. Paste the contents of [tomato_wanup_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_dark) or [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
-4. Save changes
+1. Choose __WAN Up__
+1. Paste the contents of [tomato_wanup_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_dark) or [tomato_wanup_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_wanup_light)
+1. In case your router doesn't use WAN (access point, etc.) try the firewall script instead [tomato_firewall_dark](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_dark)/[tomato_firewall_light](https://github.com/theredhood13/tomato-css/blob/master/tomato_firewall_light) _solution from u/brantot_
+1. Save changes
 
 #### 2. Enable Custom CSS
 1. Navigate to __Administration__ > __Admin Access__
-2. Change color scheme to __custom.css__
-3. Save changes and reboot router
-4. You must erase your browser's cache before the new UI appears.
+1. Change color scheme to __custom.css__
+1. Save changes and reboot router
+1. You must erase your browser's cache before the new UI appears.
 
 _Tested and working on a Netgear R8000 router running FreshTomato 2019.2_
 
@@ -37,8 +38,8 @@ _Tested and working on a Netgear R8000 router running FreshTomato 2019.2_
 
 #### 2. Enable Custom CSS
 1. Navigate to __Administration__ > __Admin Access__
-2. Change color scheme to __custom.css__
-3. Save changes and reboot router
-4. You may need to erase your brower's cache before the new UI appears.
+1. Change color scheme to __custom.css__
+1. Save changes and reboot router
+1. You may need to erase your brower's cache before the new UI appears.
 
 _If using SSH method, you must repeat the steps on reboot. Router will automatically remove custom.css file after reboot._
