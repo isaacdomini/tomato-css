@@ -207,22 +207,6 @@ td#navi a.active.indent1:before {
     color: #3498db;
 }
 
-td#navi a.indent1[href*=tools]:before,
-td#navi a.indent1[href*=basic]:before {
-    font: normal normal normal 14px/1 FontAwesome;
-    padding-right: 10px;
-    display: inline-block;
-    text-rendering: auto;
-}
-
-td#navi a.indent1[href*=qos]:before,
-td#navi a.indent1[href*=restrict]:before {
-    font: normal normal normal 14px/1 FontAwesome;
-    display: inline-block;
-    text-rendering: auto;
-    padding-right: 10px;
-}
-
 td#navi a.indent1[href*=about] {
     color: #fff;
     position: absolute;
