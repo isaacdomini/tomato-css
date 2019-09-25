@@ -154,9 +154,14 @@ table#container td#header div.title:before {
   padding-right: 5px !important;
 }
 
-small a,
+small a {
+    color: #fff!important;
+    background-color: #959ba0!important;
+}
+
 small a:hover {
     color: #fff!important;
+    background-color: #2b323a!important;
 }
 
 body,
@@ -173,7 +178,7 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-br {
+td#navi br {
     height: 0;
     display: none;
     margin: 0;
@@ -192,10 +197,7 @@ td#content a {
 td#content a:hover {
     background: 0 0;
     color: #2ab7eb;
-}
-
-small a:hover {
-    background-color: #76838f!important;
+    transition:background-color .5s;
 }
 
 td#navi a.indent1:before {
