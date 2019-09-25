@@ -159,6 +159,10 @@ small a:hover {
     color: #fff!important;
 }
 
+small a:hover {
+    background-color: #76838f!important;
+}
+
 body,
 html {
     background-color: #2b323a;
@@ -173,11 +177,8 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-br {
-    height: 0;
+td#navi br {
     display: none;
-    margin: 0;
-    padding: 0;
 }
 
 table#container {
@@ -192,10 +193,7 @@ td#content a {
 td#content a:hover {
     background: 0 0;
     color: #3498db;
-}
-
-small a:hover {
-    background-color: #76838f!important;
+    transition:background-color .5s;
 }
 
 td#navi a.indent1:before {
