@@ -162,6 +162,7 @@ small a {
 small a:hover {
     color: #fff!important;
     background-color: #2b323a!important;
+    transition:background-color .5s;
 }
 
 body,
@@ -179,10 +180,7 @@ html {
 }
 
 td#navi br {
-    height: 0;
     display: none;
-    margin: 0;
-    padding: 0;
 }
 
 table#container {
@@ -197,7 +195,6 @@ td#content a {
 td#content a:hover {
     background: 0 0;
     color: #2ab7eb;
-    transition:background-color .5s;
 }
 
 td#navi a.indent1:before {
@@ -305,7 +302,7 @@ td#navi a {
 }
 
 td#navi a:hover {
-    background-color: #1a69b7!important;
+    background-color: #1a69b7;
     color: #fff;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -534,7 +531,7 @@ td#navi a.indent1[href*=about]:hover,
 td#navi a.indent1[href*="javascript:reboot()"]:hover,
 td#navi a.indent1[href*="javascript:shutdown()"]:hover,
 td#navi a.indent1[href*="javascript:logout()"]:hover {
-    background-color:#0000!important;
+    background-color:#00000000!important;
     color: #fff;
 }
 
