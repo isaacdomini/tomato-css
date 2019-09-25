@@ -161,6 +161,7 @@ small a:hover {
 
 small a:hover {
     background-color: #76838f!important;
+    transition:background-color .5s;
 }
 
 body,
@@ -193,7 +194,6 @@ td#content a {
 td#content a:hover {
     background: 0 0;
     color: #3498db;
-    transition:background-color .5s;
 }
 
 td#navi a.indent1:before {
@@ -301,7 +301,7 @@ td#navi a {
 }
 
 td#navi a:hover {
-    background-color: #2b82bb!important;
+    background-color: #2b82bb;
     color: #fff;
     transition: background-color 0.5s, color 0.5s;
 }
@@ -573,7 +573,7 @@ td#navi a.indent1[href*=about]:hover,
 td#navi a.indent1[href*="javascript:reboot()"]:hover,
 td#navi a.indent1[href*="javascript:shutdown()"]:hover,
 td#navi a.indent1[href*="javascript:logout()"]:hover {
-    background-color:#0000!important;
+    background-color:#00000000!important;
     color: #fff;
 }
 
