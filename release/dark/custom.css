@@ -1,4 +1,4 @@
-@import url('https://use.fontawesome.com/releases/v5.10.2/css/solid.css');
+@import url('https://use.fontawesome.com/releases/v5.11.2/css/solid.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
 
 /*Custom Icons*/
@@ -45,7 +45,7 @@ a.indent1[href*="tools"]:before {
 }*/
 
 /*basic*/
-td#navi a.indent1[href*="basic-network"]:before {
+td#navi a.indent1[href*="basic"]:before {
   content: '\f013';
   display: inline-block !important;
   font-family: "Font Awesome 5 Free" !important;
@@ -87,6 +87,16 @@ td#navi a.indent1[href*="restrict"]:before {
 /*quality of service*/
 td#navi a.indent1[href*="qos"]:before {
   content: '\f3fd';
+  display: inline-block !important;
+  font-family: "Font Awesome 5 Free" !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  padding-right: 0px !important;
+}
+
+/*bandwidth limiter*/
+td#navi a.indent1[href*="bwlimit"]:before {
+  content: '\f05e';
   display: inline-block !important;
   font-family: "Font Awesome 5 Free" !important;
   font-size: 14px !important;
