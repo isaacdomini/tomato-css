@@ -165,13 +165,11 @@ table#container td#header div.title:before {
 }
 
 small a {
-    color: #fff!important;
-    background-color: #959ba0!important;
+    color: #2180de!important;
 }
 
 small a:hover {
-    color: #fff!important;
-    background-color: #2b323a!important;
+    background-color: #ddd!important;
     transition:background-color .5s;
 }
 
