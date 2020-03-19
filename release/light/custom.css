@@ -1,4 +1,4 @@
-@import url('https://use.fontawesome.com/releases/v5.11.2/css/solid.css');
+@import url('https://use.fontawesome.com/releases/v5.12.1/css/solid.css');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Roboto:400,700');
 
 /*Custom Icons*/
@@ -169,7 +169,7 @@ small a {
 }
 
 small a:hover {
-    background-color: #ddd!important;
+    background-color: #eee!important;
     transition:background-color .5s;
 }
 
@@ -417,7 +417,7 @@ table.tomato-grid tr td small {
 
 table.tomato-grid tr td small a {
     display: inline-block;
-    background-color: #fbfbfb;
+    background-color: #ddd;
     color: #000;
     font-size: 11px;
     border-radius: 0px;
@@ -425,7 +425,7 @@ table.tomato-grid tr td small a {
 }
 
 table.tomato-grid tr td small a:hover {
-    background-color: #76838f;
+    background-color: #eee;
 }
 
 table.tomato-grid .controls,
