@@ -165,13 +165,11 @@ table#container td#header div.title:before {
 }
 
 small a {
-    color: #fff!important;
-    background-color: #959ba0!important;
+    color: #2180de!important;
 }
 
 small a:hover {
-    color: #fff!important;
-    background-color: #2b323a!important;
+    background-color: #eee!important;
     transition:background-color .5s;
 }
 
@@ -419,7 +417,7 @@ table.tomato-grid tr td small {
 
 table.tomato-grid tr td small a {
     display: inline-block;
-    background-color: #fbfbfb;
+    background-color: #ddd;
     color: #000;
     font-size: 11px;
     border-radius: 0px;
@@ -427,7 +425,7 @@ table.tomato-grid tr td small a {
 }
 
 table.tomato-grid tr td small a:hover {
-    background-color: #76838f;
+    background-color: #eee;
 }
 
 table.tomato-grid .controls,
