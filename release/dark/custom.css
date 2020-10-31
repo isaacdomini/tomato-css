@@ -592,7 +592,7 @@ table#container td#header div.title small {
     display: none;
 }
 
-div#note-disabled,
+.note-disabled,
 div#notice,
 div#survey-msg,
 div#survey-warn {
