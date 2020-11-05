@@ -499,15 +499,6 @@ span#footer-msg {
     padding: 10px 15px;
 }
 
-div#rstats {
-    background-color: #fbfbfb;
-    color: #222;
-    border-radius: 0px;
-    margin: 20px 40px 0;
-    padding: 20px;
-    box-shadow: rgba(0, 0, 0, .2) 0px 3px 3px;
-}
-
 div#tab-area {
     margin-bottom: 10px;
 }
@@ -549,7 +540,7 @@ span#dtime {
     display: none;
 }
 
-div#note-disabled,
+.note-disabled,
 div#notice,
 div#survey-msg,
 div#survey-warn {
