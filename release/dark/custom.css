@@ -530,14 +530,6 @@ textarea {
     border:0;
 }
 
-div#rstats {
-    background-color: #2b323a;
-    color: #fff;
-    border-radius: 0px;
-    margin: 20px 40px 0;
-    padding: 20px;
-}
-
 div#tab-area {
     margin-bottom: 10px;
 }
